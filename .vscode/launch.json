@@ -1,0 +1,19 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Create TX",
+      "program": "${workspaceFolder}/create-tx.js",
+      "args": [
+        "test3/private-test2.json",
+        "e14bdbc909d93ede1481ea9038d2acaf96b199404239191043573af58a3930a6",
+        "-"
+      ]
+    }
+  ]
+}
